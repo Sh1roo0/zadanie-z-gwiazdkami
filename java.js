@@ -93,3 +93,13 @@ for (let i = n; i >= 1; i--) {
   let space  = '  ';
   console.log(space.repeat(n-i)+str.repeat(i));
 }
+console.log("Ćwiczenie ");
+
+let star = "*";
+for(let i = 6; i > 0; i -=2) {
+  let line = star.repeat(i);
+
+  console.log(line);
+  console.log(line);
+
+}

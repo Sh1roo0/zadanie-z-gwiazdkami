@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function tworz(){
+            let div = createElement("div");
+            let p = createElement("p");
+            let h2 = createElement("h2");
+
+            document.body.appendChild(div);
+            div.appendChild(p);
+            div.appendChild(h2);
+            p.textContent = "paragraf"
+            p.style.color = "red"
+            h2.textContent = "nagłówek"
+            h2.style.color = "lightgreen"
+
+
+        }
+        tworz();
+    </script>
+</body>
+</html>
